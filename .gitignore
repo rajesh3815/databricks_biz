@@ -1,0 +1,36 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files
+.env
+.venv/
+venv/
+ENV/
+env/
+Pipfile.lock
+poetry.lock
+
+# Byte-compiled / optimized / compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Virtual environment folder
+.venv/
